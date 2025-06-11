@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio de Evidencias</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- AOS Animaciones -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Navbar pro -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#"><i class="bi bi-journal-bookmark"></i> Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="presentacion.html">Presentación</a></li>
+          <li class="nav-item"><a class="nav-link" href="competencias.html">Competencias</a></li>
+          <li class="nav-item"><a class="nav-link" href="reflexion.html">Reflexión</a></li>
+          <li class="nav-item"><a class="nav-link" href="valoracion.html">Valoración</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero con imagen -->
+  <header class="bg-dark text-white text-center d-flex align-items-center justify-content-center" style="height: 80vh; background: url('https://sapeoplewppro.blob.core.windows.net/media/2024/11/liderazgo-servicial.jpg') no-repeat center center/cover;">
+    <div class="bg-dark bg-opacity-75 p-5 rounded" data-aos="fade-up">
+      <h1 class="display-4 fw-bold">Portafolio de Evidencias</h1>
+      <p class="lead">Explora mi trayectoria académica, logros y aprendizajes del curso</p>
+      <a href="presentacion.html" class="btn btn-primary btn-lg mt-3"><i class="bi bi-person-circle me-1"></i> Ver mi perfil</a>
+    </div>
+  </header>
+
+  <!-- Sección destacada -->
+  <section class="py-5 bg-light">
+    <div class="container text-center" data-aos="fade-up">
+      <h2 class="mb-4">¿Qué encontrarás aquí?</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100 hover-shadow" data-aos="zoom-in">
+            <div class="card-body">
+              <i class="bi bi-lightbulb display-4 text-primary mb-3"></i>
+              <h5 class="card-title">Competencias</h5>
+              <p class="card-text">Desarrollo de habilidades y evidencias que respaldan mi crecimiento académico.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100 hover-shadow" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card-body">
+              <i class="bi bi-chat-left-text display-4 text-success mb-3"></i>
+              <h5 class="card-title">Reflexión</h5>
+              <p class="card-text">Una mirada introspectiva sobre mi proceso, aprendizajes clave y desafíos superados.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card border-0 shadow h-100 hover-shadow" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card-body">
+              <i class="bi bi-people display-4 text-warning mb-3"></i>
+              <h5 class="card-title">Valoraciones</h5>
+              <p class="card-text">Comentarios de mis compañeros sobre mi desempeño y aportes durante el curso.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      <small>&copy; 2025 Portafolio de Evidencias – Diseñado por Gerson Morales</small>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
